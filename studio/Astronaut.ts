@@ -1,4 +1,4 @@
-import { Payload } from './studio/Payload'
+import { Payload } from './Payload'
 export class Astronaut implements Payload {
     // properties and methods
  massKg:number ;
