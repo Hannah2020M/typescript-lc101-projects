@@ -4,7 +4,7 @@ exports.Cargo = void 0;
 var Cargo = /** @class */ (function () {
     function Cargo(massKg, material) {
         this.massKg = massKg;
-        this.material = name;
+        this.material = material;
     }
     return Cargo;
 }());

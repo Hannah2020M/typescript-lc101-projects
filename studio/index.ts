@@ -10,11 +10,11 @@ import { Astronaut } from './Astronaut';
 import { Cargo } from './Cargo';
 import { Rocket } from './Rocket';
 
-let c1 = new Cargo(100, 'steel');
-let c2 = new Cargo(200, 'copper');
+let c1: Cargo = new Cargo(100, 'steel');
+let c2: Cargo = new Cargo(200, 'copper');
 
 let myCargoArray: Cargo[] = [c1, c2];
-let myRocket = new Rocket('my rocket', 0);
+let myRocket = new Rocket('my rocket', 0);//creates an instance named 'my rocket'
 const mySum = myRocket.sumMass(myCargoArray);
 console.log('my sum is: 'mySum');
 
@@ -57,3 +57,4 @@ console.log('my sum is: 'mySum');
 // }
 
 // console.log(`Final cargo and astronaut mass: ${falcon9.currentMassKg()} kg.`);
+
