@@ -19,33 +19,4 @@ export class Rocket {
         }
         return myTotalMass;
     }//end of sumMass
-//     currentMassKg(): number{
-//     //Uses this.sumMass to return the combined mass of this.astronauts and this.cargoItems
-//       let massTotal = this.sumMass(this.cargoItems) + this.sunMass(this.astronauts);
-//            return massTotal;
-//     }//end of currentMassKg()
-
-//     canAdd(item: Payload): boolean{ 
-//     //Returns true if this.currentMassKg() + item.massKg <= this.totalCapacityKg
-//     //addCargo(cargo: Cargo): boolean
-//      let totalMass = this.currentMassKg() + item.massKg;
-//      if (totalMass <= this.totalCapacityKg) return true;
-//       return false;
- 
-//       addAstronaut(astronaut: Astronaut): boolean {
-//             let itCanAddIt = (this.canAdd(astronaut);
-//             if (itCanAddIt){
-// this.astronauts.push(astronaut);
-//    return true;
-//              } else {
-//                  return false;
-//              }
-
-//       }
-
-
-//  }
-
-
-
 }
